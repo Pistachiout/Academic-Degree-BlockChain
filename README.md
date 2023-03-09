@@ -3,9 +3,13 @@
 ### 1.部署环境
 
 •阿里云主机 Ubuntu 16.04 64 位（root 用户）
+
 •Golang 语言 go1.17
+
 •docker 18.09.7
+
 •docker-compose 1.22.0
+
 
 ### 2.环境配置
 
@@ -19,9 +23,11 @@ sudo apt install docker.io
 ```
 
 验证 docker 成功安装：docker version，结果如图所示：
+
 ![docker 安装成功](https://img-blog.csdnimg.cn/2747b94a14f34c9698d8d6a3bef4c100.png)
 
 为了方便管理多个 docker 容器，还需要安装 docker-compose：sudo apt install docker- compose；验证安装成功：docker-compose version；如图所示：
+
 
 
 ![docker-compose 安装成功](https://img-blog.csdnimg.cn/ffb878a022a949fe89d388a0ad8127ca.png)
