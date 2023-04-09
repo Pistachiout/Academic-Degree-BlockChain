@@ -1,5 +1,5 @@
 基于Hyperledger Fabric的学位学历认证管理系统
-
+项目功能介绍:https://blog.csdn.net/qq_45808700/article/details/129423030
 ### 1.部署环境
 
 •阿里云主机 Ubuntu 16.04 64 位（root 用户）
