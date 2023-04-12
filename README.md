@@ -95,8 +95,10 @@ docker-compose -f docker-compose.yaml up -d
 
 
 : ![启动项目成功](https://img-blog.csdnimg.cn/c5a33dd311bd46c792da068a291b3839.png)
-管理员账号：admin 123456，
+管理员账号：admin 123456
+
 普通用户账号密码：bob 123456
+
 浏览器账号密码：exploreradmin  exploreradminpw
 
 
