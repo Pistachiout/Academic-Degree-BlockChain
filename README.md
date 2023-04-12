@@ -41,7 +41,6 @@ sudo apt install docker.io
  1. 安装 Golang： wget  https://dl.google.com/go/go1.17.0.linux-amd64.tar.gz
  2. 使用 tar 命令将压缩文件解压至指定路径/usr/local/下： tar -zxvf go1.17.0.linux-amd64.tar.gz -C /usr/local
  3. sudo -s使当前用户为 root 用户，$HOME=/root
- 
  4. vim /etc/hosts,添加：
  
 ```bash
