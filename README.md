@@ -54,8 +54,8 @@ sudo apt install docker.io
 
 ```bash
 export GOPATH=/root/go
-export GOROOT=/usr/local/go，
-export PATH=$GOROOT/bin:
+export GOROOT=/usr/local/go
+export PATH=$GOROOT/bin:$PATH
 ```
 
  6. $PATH 激活环境变量： source /etc/profile
