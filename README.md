@@ -50,7 +50,7 @@ sudo apt install docker.io
 ```
 
 
- 5. gedit /root/.bashrc文件,设置环境变量 GOHOME 以及 GOROOT： sudo vim /etc/profile 添加如下：    
+ 5. gedit /root/.bashrc文件,设置环境变量 GOHOME 以及 GOROOT：  
 
 ```bash
 export GOPATH=/root/go
