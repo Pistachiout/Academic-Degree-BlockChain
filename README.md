@@ -87,8 +87,9 @@ sudo ./clean_docker.sh
 ```
 再开一个终端，按以下步骤启动Fabric浏览器
 ```bash
-
-cd explorer
+sudo -s
+source /root/.bashrc
+cd $GOPATH/src/education/explorer
 docker-compose -f docker-compose.yaml up -d
 ```
 使用docker-compose down -v关闭浏览器，Ctrl + C 停止Web服务
