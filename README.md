@@ -74,14 +74,13 @@ cd $GOPATH/src/education
 export GO111MODULE=on
 export GOPROXY=https://goproxy.io
 go mod tidy
-./clean_docker.sh
+sudo ./clean_docker.sh
 ```
 再开一个终端，按以下步骤启动Fabric浏览器
 ```bash
 
 cd explorer
 docker-compose -f docker-compose.yaml up -d
-./clean_docker.sh
 ```
 使用docker-compose down -v关闭浏览器，Ctrl + C 停止Web服务
 
