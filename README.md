@@ -39,18 +39,27 @@ sudo apt install docker.io
 区块链框架Hyperledger Fabric 目前支持Java、Go 等主流编程语言并提供了相应的SDK，但是支持最全面的还是 Golang，因此采用 Go 语言来进行开发是比较好的选择；
 
  1. 安装 Golang： wget  https://dl.google.com/go/go1.17.0.linux-amd64.tar.gz
- 2. .使用 tar 命令将压缩文件解压至指定路径/usr/local/下： tar -zxvf go1.17.0.linux-amd64.tar.gz -C /usr/local
+ 2. 使用 tar 命令将压缩文件解压至指定路径/usr/local/下： tar -zxvf go1.17.0.linux-amd64.tar.gz -C /usr/local
  3. sudo -s使当前用户为 root 用户，$HOME=/root
- 4. 最后是设置环境变量 GOHOME 以及 GOROOT： sudo vim /etc/profile 添加如下：    
+ 4.在/etc/hosts中添加：
+ 
+```bash
+127.0.0.1  orderer.example.com
+127.0.0.1  peer0.org1.example.com
+127.0.0.1  peer1.org1.example.com
+```
+
+
+ 5. gedit /root/.bashrc文件,设置环境变量 GOHOME 以及 GOROOT： sudo vim /etc/profile 添加如下：    
 
 ```bash
-export GOPATH=$HOME/go 
+export GOPATH=/root/go
 export GOROOT=/usr/local/go，
 export PATH=$GOROOT/bin:
 ```
 
- 4. $PATH 激活环境变量： source /etc/profile
- 5. 验证安装成功，使用 go version 结果如图所示：
+ 6. $PATH 激活环境变量： source /etc/profile
+ 7. 验证安装成功，使用 go version 结果如图所示：
 
 ![Golang 安装成功](https://img-blog.csdnimg.cn/d449c551a6d449d7a640752149be939c.png)
 ### 3.项目部署
