@@ -40,7 +40,8 @@ sudo apt install docker.io
 
  1. 安装 Golang： wget  https://dl.google.com/go/go1.17.0.linux-amd64.tar.gz
  2. .使用 tar 命令将压缩文件解压至指定路径/usr/local/下： tar -zxvf go1.17.0.linux-amd64.tar.gz -C /usr/local
- 3. 最后是设置环境变量 GOHOME 以及 GOROOT： sudo vim /etc/profile 添加如下（当前用户为 root 用户，$HOME=/root）：    
+ 3. sudo -s使当前用户为 root 用户，$HOME=/root
+ 4. 最后是设置环境变量 GOHOME 以及 GOROOT： sudo vim /etc/profile 添加如下：    
 
 ```bash
 export GOPATH=$HOME/go 
@@ -64,9 +65,15 @@ export PATH=$GOROOT/bin:
 
 ### 4.启动项目
 
-由于每次启动流程相对固定，因此编写脚本来自动清理 docker 然后启动项目在项目的目录下运行 clean_docker.sh 脚本即可启动项目：
+由于每次启动流程相对固定，首先进入root用户，并配置环境，然后启动项目在项目的目录下运行 clean_docker.sh 脚本即可启动项目：
 
 ```bash
+sudo -s
+source /root/.bashrc
+cd $GOPATH/src/education
+export GO111MODULE=on
+export GOPROXY=https://goproxy.io
+go mod tidy
 ./clean_docker.sh
 ```
 
