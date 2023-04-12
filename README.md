@@ -84,6 +84,7 @@ docker-compose -f docker-compose.yaml up -d
 ./clean_docker.sh
 ```
 使用docker-compose down -v关闭浏览器，Ctrl + C 停止Web服务
+
 项目启动成功的结果如图所示：
 
 ![启动项目成功](https://img-blog.csdnimg.cn/7c55555eeed94d9bbacd18cd7d7bb05e.png)
@@ -95,6 +96,7 @@ docker-compose -f docker-compose.yaml up -d
 
 
 : ![启动项目成功](https://img-blog.csdnimg.cn/c5a33dd311bd46c792da068a291b3839.png)
+
 管理员账号：admin 123456
 
 普通用户账号密码：bob 123456
