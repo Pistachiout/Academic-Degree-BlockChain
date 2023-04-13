@@ -83,7 +83,7 @@ cd $GOPATH/src/education
 export GO111MODULE=on
 export GOPROXY=https://goproxy.io
 go mod tidy
-sudo ./clean_docker.sh
+./clean_docker.sh
 ```
 再开一个终端，按以下步骤启动Fabric浏览器
 ```bash
