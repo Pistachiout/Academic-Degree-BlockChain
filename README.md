@@ -107,7 +107,7 @@ docker-compose -f docker-compose.yaml up -d
 : ![启动项目成功](https://img-blog.csdnimg.cn/c5a33dd311bd46c792da068a291b3839.png)
 
 通过浏览器访问localhost:8080即可进入 区块链浏览器，结果如图所示：
-![image](https://user-images.githubusercontent.com/63298680/231711295-bb6b2b88-258e-4ead-a8d5-c71626cad9a9.png)
+![image](https://user-images.githubusercontent.com/63298680/231712067-d7cafefe-615c-495c-ba20-92827b10dfc2.png)
 
 
 管理员账号：admin 123456
