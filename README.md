@@ -99,12 +99,16 @@ docker-compose -f docker-compose.yaml up -d
 ![启动项目成功](https://img-blog.csdnimg.cn/7c55555eeed94d9bbacd18cd7d7bb05e.png)
 
 
-通过浏览器访问 9000 端口即可进入 web 端，结果如图所示：
+通过浏览器访问 localhost:9000端口即可进入 web 端，结果如图所示：
 
 
 
 
 : ![启动项目成功](https://img-blog.csdnimg.cn/c5a33dd311bd46c792da068a291b3839.png)
+
+通过浏览器访问localhost:8080即可进入 区块链浏览器，结果如图所示：
+![image](https://user-images.githubusercontent.com/63298680/231711295-bb6b2b88-258e-4ead-a8d5-c71626cad9a9.png)
+
 
 管理员账号：admin 123456
 
