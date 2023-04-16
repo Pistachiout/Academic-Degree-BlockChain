@@ -4,9 +4,9 @@
 
 ### 1.部署环境
 
-•阿里云主机 Ubuntu 16.04 64 位（root 用户）
+•Linux Ubuntu（root 用户）
 
-•Golang 语言 go1.17
+•Golang 语言 go1.12以上均可
 
 •docker 18.09.7
 
