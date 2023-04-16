@@ -109,6 +109,14 @@ docker-compose -f docker-compose.yaml up -d
 通过浏览器访问localhost:8080即可进入 区块链浏览器，结果如图所示：
 ![image](https://user-images.githubusercontent.com/63298680/231712067-d7cafefe-615c-495c-ba20-92827b10dfc2.png)
 
+CouchDB 数据库1：peer0节点7051端口 `http://ip:5984/_utils`
+
+CouchDB 数据库2：peer1节点9051端口 `http://ip:7984/_utils`
+![在这里插入图片描述](https://img-blog.csdnimg.cn/4aaa814726204c64bba19f534ef39bc7.png)
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/e74c46fbb3c341d1b75a54bc9e331967.png)
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/22192eb759314993baeb3f72377343c5.png)
 
 管理员账号：admin 123456
 
