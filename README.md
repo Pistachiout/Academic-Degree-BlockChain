@@ -112,9 +112,6 @@ docker-compose -f docker-compose.yaml up -d
 CouchDB 数据库1：peer0节点7051端口 `http://ip:5984/_utils`
 
 CouchDB 数据库2：peer1节点9051端口 `http://ip:7984/_utils`
-![在这里插入图片描述](https://img-blog.csdnimg.cn/4aaa814726204c64bba19f534ef39bc7.png)
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/e74c46fbb3c341d1b75a54bc9e331967.png)
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/22192eb759314993baeb3f72377343c5.png)
 
@@ -124,4 +121,4 @@ CouchDB 数据库2：peer1节点9051端口 `http://ip:7984/_utils`
 
 浏览器账号密码：exploreradmin  exploreradminpw
 
-
+有帮助的话希望点亮star收藏一下，如果部署有困难可以加qq2097731053
