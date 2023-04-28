@@ -28,7 +28,11 @@ sudo apt install docker.io
 
 ![docker 安装成功](https://img-blog.csdnimg.cn/2747b94a14f34c9698d8d6a3bef4c100.png)
 
-为了方便管理多个 docker 容器，还需要安装 docker-compose：sudo apt install docker- compose；验证安装成功：docker-compose version；如图所示：
+为了方便管理多个 docker 容器，还需要安装 docker-compose：
+```bash
+sudo apt install docker- compose
+```
+验证安装成功：docker-compose version，如图所示：
 
 
 
@@ -109,9 +113,9 @@ docker-compose -f docker-compose.yaml up -d
 通过浏览器访问localhost:8080即可进入 区块链浏览器，结果如图所示：
 ![image](https://user-images.githubusercontent.com/63298680/231712067-d7cafefe-615c-495c-ba20-92827b10dfc2.png)
 
-CouchDB 数据库1：peer0节点7051端口 `http://ip:5984/_utils`
+CouchDB 数据库1：peer0节点7051端口 `http://localhost:5984/_utils`
 
-CouchDB 数据库2：peer1节点9051端口 `http://ip:7984/_utils`
+CouchDB 数据库2：peer1节点9051端口 `http://localhost:7984/_utils`
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/22192eb759314993baeb3f72377343c5.png)
 
