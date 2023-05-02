@@ -1,4 +1,18 @@
 基于Hyperledger Fabric的学位学历认证管理系统
+1. `config.yaml`配置文件：描述组织结构、通道结构、所有配置文件、证书的路径
+2. `chaincode`：链码文件所在的目录
+	- `vendor`：依赖包
+	- `edu.go`：链码（智能合约）
+3. `fixtures`：fabric基础网络所有文件所在的目录
+4. `img`：存放前端的图片
+5. `sdkInit`：sdk核心代码
+	- `sdkSetting.go`：实现了包括Setup、CreateAndJoinChannel、CreateCCLifecycle等基础功能的函数
+	- `integration.go`：实现了包括DiscoverLocalPeers、InitService等基础功能的函数
+	- `sdkInfo.go`：定义了一些组织和SDK中用到的结构体
+	- `set/get.go`：复制调用链码的两个函数
+6. `service`：服务端代码，封装了合约接口的调用
+	- `eduService.go`：调用链码的关键所在
+7. `explorer`：区块链浏览器文件及配置
 
 项目功能介绍:https://blog.csdn.net/qq_45808700/article/details/129423030
 
