@@ -84,7 +84,7 @@ export PATH=$GOROOT/bin:$PATH
 
  1. 1.创建保存项目的文件夹： mkdir -p $GOPATH/src
  2. 进入文件夹： cd $GOPATH/src
- 3. 从 github 仓库克隆项目： git clone https://github.com/Pistachiout/Academic-Degree-BlockChain
+ 3. 从 github 仓库克隆项目到education文件夹： git clone https://github.com/Pistachiout/Academic-Degree-BlockChain.git education
  4. 进入项目目录：cd education
  5. 添加项目开发需要依赖的 Golang 包：go mod tidy
 命令可能会执行失败，此时设置代理即可：go env -w GOPROXY=https://goproxy.cn
