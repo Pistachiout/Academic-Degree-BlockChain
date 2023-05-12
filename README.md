@@ -56,10 +56,11 @@ sudo apt install docker- compose
 
 区块链框架Hyperledger Fabric 目前支持Java、Go 等主流编程语言并提供了相应的SDK，但是支持最全面的还是 Golang，因此采用 Go 语言来进行开发是比较好的选择；
 
- 1. 安装 Golang： wget  https://dl.google.com/go/go1.17.0.linux-amd64.tar.gz
- 2. 使用 tar 命令将压缩文件解压至指定路径/usr/local/下： tar -zxvf go1.17.0.linux-amd64.tar.gz -C /usr/local
- 3. sudo -s使当前用户为 root 用户，$HOME=/root
- 4. sudo vim /etc/hosts,添加：
+ 1. 安装 Golang： wget  https://dl.google.com/go/go1.17.0.linux-amd64.tar.gz。下载受网络环境影响，如果您本地有相应的 tar 包，则直接解压到指定的路径下即可。
+
+ 3. 使用 tar 命令将压缩文件解压至指定路径/usr/local/下： tar -zxvf go1.17.0.linux-amd64.tar.gz -C /usr/local
+ 4. sudo -s使当前用户为 root 用户，$HOME=/root
+ 5. sudo vim /etc/hosts,添加：
  
 ```bash
 127.0.0.1  orderer.example.com
