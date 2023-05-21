@@ -20,8 +20,7 @@
 
 •Linux Ubuntu（root 用户）
 
-•Golang 语言 go1.12以上均可
-
+•Golang 语言 go1.12-go1.17
 •docker 18.09.7
 
 •docker-compose 1.22.0
