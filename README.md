@@ -20,7 +20,7 @@
 
 •Linux Ubuntu（root 用户）
 
-•Golang 语言 go1.12-go1.17
+•Golang 语言 ：建议使用go1.17
 
 •docker 18.09.7
 
