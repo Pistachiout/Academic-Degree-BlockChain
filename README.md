@@ -20,7 +20,7 @@
 
 •Linux Ubuntu（root 用户）
 
-•Golang 语言 ：建议使用go1.17
+•Golang 语言 ：建议使用go1.17，版本过高会出现问题
 
 •docker 18.09.7
 
@@ -132,6 +132,7 @@ CouchDB 数据库1：peer0节点7051端口 `http://localhost:5984/_utils`
 
 CouchDB 数据库2：peer1节点9051端口 `http://localhost:7984/_utils`
 
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/22192eb759314993baeb3f72377343c5.png)
 
 管理员账号：admin 123456
@@ -141,3 +142,13 @@ CouchDB 数据库2：peer1节点9051端口 `http://localhost:7984/_utils`
 浏览器账号密码：exploreradmin  exploreradminpw
 
 有帮助的话希望点亮star收藏一下，如果部署有困难可以加qq2097731053
+
+
+### 常见部署问题
+![image](https://github.com/Pistachiout/Academic-Degree-BlockChain/assets/63298680/88402e0a-9ce4-49a8-aa99-2f1644f33c6d)
+
+上图的问题是网络问题，可以在宿主机下载好go安装包，然后放入虚拟机中解压
+
+![image](https://github.com/Pistachiout/Academic-Degree-BlockChain/assets/63298680/103f59a4-673c-41a5-8fa3-8d66e999dfb2)
+
+若出现上图的问题，说明你的go语言版本过高，可以换为go1.17
