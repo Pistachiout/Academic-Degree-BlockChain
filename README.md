@@ -105,7 +105,7 @@ go mod tidy
 ./clean_docker.sh
 ```
 ### 5.启动区块链浏览器
-再开一个终端，按以下步骤启动Fabric浏览器
+再开一个终端，按以下步骤启动Fabric浏览器（在启动Web项目之后，才能启动区块链浏览器）
 ```bash
 sudo -s
 source /root/.bashrc
