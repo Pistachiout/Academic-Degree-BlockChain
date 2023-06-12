@@ -114,7 +114,7 @@ docker-compose -f docker-compose.yaml up -d
 ```
 使用docker-compose down -v关闭浏览器，Ctrl + C 停止Web服务
 
-### 6.项目二级果：
+### 6.项目结果：
 
 项目启动成功的结果如图所示：
 
