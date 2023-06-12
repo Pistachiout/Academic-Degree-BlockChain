@@ -1,4 +1,4 @@
-基于Hyperledger Fabric的学位学历认证管理系统
+## 基于Hyperledger Fabric的学位学历认证管理系统
 1. `config.yaml`配置文件：描述组织结构、通道结构、所有配置文件、证书的路径
 2. `chaincode`：链码文件所在的目录
 	- `vendor`：依赖包
@@ -104,6 +104,7 @@ export GOPROXY=https://goproxy.io
 go mod tidy
 ./clean_docker.sh
 ```
+### 5.启动区块链浏览器
 再开一个终端，按以下步骤启动Fabric浏览器
 ```bash
 sudo -s
@@ -112,6 +113,8 @@ cd $GOPATH/src/education/explorer
 docker-compose -f docker-compose.yaml up -d
 ```
 使用docker-compose down -v关闭浏览器，Ctrl + C 停止Web服务
+
+### 6.项目二级果：
 
 项目启动成功的结果如图所示：
 
@@ -144,7 +147,7 @@ CouchDB 数据库2：peer1节点9051端口 `http://localhost:7984/_utils`
 有帮助的话希望点亮star收藏一下，如果部署有困难可以加qq2097731053
 
 
-### 常见部署问题
+### 7.常见部署问题
 ![image](https://github.com/Pistachiout/Academic-Degree-BlockChain/assets/63298680/88402e0a-9ce4-49a8-aa99-2f1644f33c6d)
 
 上图的问题是网络问题，可以在宿主机下载好go安装包，然后放入虚拟机中解压
