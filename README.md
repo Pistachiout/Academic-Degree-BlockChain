@@ -69,7 +69,7 @@ sudo apt install docker- compose
 ```
 
 
- 5. sudo gedit /root/.bashrc文件,设置环境变量 GOHOME 以及 GOROOT：  
+ 5. sudo vim /root/.bashrc文件,添加环境变量 GOHOME 以及 GOROOT：  
 
 ```bash
 export GOPATH=/root/go
