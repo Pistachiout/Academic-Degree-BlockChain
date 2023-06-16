@@ -78,7 +78,8 @@ export PATH=$GOROOT/bin:$PATH
 ```
 
  6. 激活环境变量： source /etc/profile
- 7. 验证安装成功，使用 go version 结果如图所示：
+ 7. 更新网络：service network-manager restart
+ 8. 验证安装成功，使用 go version 结果如图所示：
 
 ![Golang 安装成功](https://img-blog.csdnimg.cn/d449c551a6d449d7a640752149be939c.png)
 ### 3.项目部署
