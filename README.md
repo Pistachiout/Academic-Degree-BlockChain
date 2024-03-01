@@ -16,6 +16,7 @@
 
 项目功能介绍:https://blog.csdn.net/qq_45808700/article/details/129423030
 
+Hyperledger Fabric实践文档：https://learnblockchain.cn/books/enterprise/chapter4_00.html
 ### 1.部署环境
 
 •Linux Ubuntu（root 用户）
