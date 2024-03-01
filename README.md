@@ -147,8 +147,12 @@ CouchDB 数据库2：peer1节点9051端口 `http://localhost:7984/_utils`
 
 有帮助的话希望点亮star收藏一下，如果部署有困难可以加qq2097731053
 
-
-### 7.常见部署问题
+### 7 .关闭项目
+Ctrl + C 停止Web服务，然后使用如下命令清空：
+```bash
+make clean
+```
+### 8 .常见部署问题
 ![image](https://github.com/Pistachiout/Academic-Degree-BlockChain/assets/63298680/88402e0a-9ce4-49a8-aa99-2f1644f33c6d)
 
 上图的问题是网络问题，可以在宿主机下载好go安装包，然后放入虚拟机中解压
