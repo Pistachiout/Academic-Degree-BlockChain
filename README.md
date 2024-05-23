@@ -161,3 +161,9 @@ make clean
 ![image](https://github.com/Pistachiout/Academic-Degree-BlockChain/assets/63298680/103f59a4-673c-41a5-8fa3-8d66e999dfb2)
 
 若出现上图的问题，说明你的go语言版本过高，可以换为go1.17
+
+Create channel and join error: Create channel error: error should be nil for SaveChannel of orgchannel: create channel failed: create channel failed: SendEnvelope failed: calling orderer 'orderer.example.com:7050' failed: Orderer Server Status Code: (400) BAD_REQUEST. Description: error applying config update to existing channel 'mychannel': error authorizing update: error validating ReadSet: proposed update requires that key [Group] /Channel/Application be at version 0, but it is currently at version 1
+
+若报上述错误，可进入fixtures目录，执行①doucker-compose down -v ②docker volume prune ③docker container rm -f $(docker container ls -aq)
+
+感谢[@zhangrufeng](https://github.com/zhangrufeng)提的issue，详情见https://github.com/Pistachiout/Academic-Degree-BlockChain/issues/1#issuecomment-2126708483
